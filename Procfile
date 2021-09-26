@@ -1,1 +1,1 @@
-web: gunicorn valleyfarmdb.wsgi --log-file -
+web: gunicorn myFirstProject.wsgi --log-file -
