@@ -61,7 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'valleyFarmDB.urls'
+ROOT_URLCONF = 'myFirstProject.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'valleyFarmDB.wsgi.application'
+WSGI_APPLICATION = 'myFirstProject.wsgi.application'
 
 
 # Database
