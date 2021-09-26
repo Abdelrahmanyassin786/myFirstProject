@@ -1,0 +1,1 @@
+web: gunicorn valleyfarmdb.wsgi --log-file -
