@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'myFirstProject.wsgi.application'
 DATABASES = {
 
 #outbound Rule added 3.19.230.143/32; made the server connect
-    'default2': {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': ThisIsASecret['DB_NAME2'],
         'USER': ThisIsASecret['DB_USER2'],
@@ -99,7 +99,7 @@ DATABASES = {
     },
 
 
-    'default': {
+    'default3': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
