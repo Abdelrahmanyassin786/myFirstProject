@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="788efa38-6b79-4ecc-986b-1041480843c9" name="Changes" comment="edited whitenoise middleware in settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstProject/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstProject/asgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632668457093</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edited whitenoise middleware in settings">
+      <created>1632669613926</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632669613926</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
