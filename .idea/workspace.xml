@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="788efa38-6b79-4ecc-986b-1041480843c9" name="Changes" comment="trying to use aws_s3 for static files instead of whitenoise">
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0016_auto_20210926_2026.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFirstProject/aws/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFirstProject/aws/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFirstProject/aws/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myFirstProject/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myFirstProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632672153382</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="trying to use aws_s3 for static files instead of whitenoise">
+      <created>1632682828218</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1632682828218</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
