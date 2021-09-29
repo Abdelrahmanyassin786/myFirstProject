@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="788efa38-6b79-4ecc-986b-1041480843c9" name="Changes" comment="created folder staticfiles for aws db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstProject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

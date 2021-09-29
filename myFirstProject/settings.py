@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 from myFirstProject.aws.conf import *
+import dj_database_url
 
 ThisIsASecret = os.environ
 
@@ -89,7 +90,7 @@ WSGI_APPLICATION = 'myFirstProject.wsgi.application'
 DATABASES = {
 
 #outbound Rule added 3.19.230.143/32; made the server connect
-    'default': {
+    'default2': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': ThisIsASecret['DB_NAME2'],
         'USER': ThisIsASecret['DB_USER2'],
@@ -99,7 +100,7 @@ DATABASES = {
     },
 
 
-    'default3': {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
@@ -107,6 +108,8 @@ DATABASES = {
     #  connects to local sqlite
 }
 
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
