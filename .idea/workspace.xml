@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="788efa38-6b79-4ecc-986b-1041480843c9" name="Changes" comment="created folder staticfiles for aws db">
+    <list default="true" id="788efa38-6b79-4ecc-986b-1041480843c9" name="Changes" comment="added dj-db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myFirstProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myFirstProject/__pycache__/settings.cpython-39.pyc" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632694651348</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added dj-db">
+      <created>1632918633302</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1632918633302</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +208,7 @@
     <MESSAGE value="frm valleyfarmdb to myfirstproject in asgi" />
     <MESSAGE value="trying to use aws_s3 for static files instead of whitenoise" />
     <MESSAGE value="changed db from aws to sqlite3" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed db from aws to sqlite3" />
+    <MESSAGE value="added dj-db" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dj-db" />
   </component>
 </project>
