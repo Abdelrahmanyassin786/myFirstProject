@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad41a13-c44f-4280-bc98-5e17b242bba2" name="Changes" comment="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html">
-      <change afterPath="$PROJECT_DIR$/d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="DB_sqlite3" />
@@ -36,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -52,7 +62,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="788efa38-6b79-4ecc-986b-1041480843c9" name="Changes" comment="" />
+      <changelist id="0ad41a13-c44f-4280-bc98-5e17b242bba2" name="Changes" comment="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html" />
       <created>1632651256775</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -184,7 +194,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632918633302</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html">
+      <created>1639298076970</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639298076970</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html">
+      <created>1639298274037</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639298274037</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html">
+      <created>1639426032001</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1639426032001</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +241,7 @@
     <MESSAGE value="trying to use aws_s3 for static files instead of whitenoise" />
     <MESSAGE value="changed db from aws to sqlite3" />
     <MESSAGE value="added dj-db" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dj-db" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/valleyFarmDB' into valleyFarmDB&#10;&#10;# Conflicts:&#10;#&#9;accounts/templates/accounts/navbar.html" />
   </component>
 </project>

@@ -176,3 +176,7 @@ def deleteOrder(request, pk):
         return redirect('/')
     context = {'item': order}
     return render(request, 'accounts/delete.html', context)
+
+@unauthenticated_user
+def boxGame(request):
+    return render(request, 'accounts/boxGame.html')
