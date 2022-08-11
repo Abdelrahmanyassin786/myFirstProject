@@ -10,7 +10,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import Group
 
-# from django.http import HttpResponse
+from django.http import HttpResponse
 from .models import *
 from .forms import OrderForm, CreateUserForm, CustomerForm
 from .filters import OrderFilter
@@ -177,6 +177,13 @@ def deleteOrder(request, pk):
     context = {'item': order}
     return render(request, 'accounts/delete.html', context)
 
-@unauthenticated_user
+
+#@unauthenticated_user
 def boxGame(request):
     return render(request, 'accounts/boxGame.html')
+
+
+#@unauthenticated_user
+def takeMeBack(request):
+    return render(request, 'accounts/takeMeBack.html')
+

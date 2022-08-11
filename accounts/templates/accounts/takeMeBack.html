@@ -1,0 +1,26 @@
+{% extends 'accounts/main.html' %}
+{% block content %}
+
+    <body>
+        <h1>Do You Really want to go back?</h1>
+
+<div style="display:block;">
+    <span>You came from here</span><input type="text" name="URL" id="refURL" style="width:50%;" disabled readonly/>
+<a href="" id="abc">Then me second</a>
+<a href="" id="myLink">PRESS ME First</a>
+</div>
+    </body>
+
+<script type="text/javascript">
+     var refURL=document.referrer;
+     var target=document.getElementById('refURL');
+     target.value=refURL
+ </script>
+
+<script type="text/javascript">
+  document.getElementById("myLink").onclick = function() {
+    document.getElementById("abc").href=document.referrer;
+    return false;
+  };
+</script>
+{% endblock content %}

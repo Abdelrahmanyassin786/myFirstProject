@@ -36,4 +36,6 @@ urlpatterns = [
          name="password_reset_complete"),
 
     path('boxGame/', views.boxGame, name="boxGame"),
+
+    path('takeMeBack/', views.takeMeBack, name="takeMeBack"),
 ]
